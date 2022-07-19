@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="LEAP year or not">
+    <title>6_LEAP year or not</title>
+</head>
+<body>
+    <h1>LEAP year or not</h1>
+    <script>
+        let year = prompt("Enter the year");
+        if(year % 400 == 0)
+        {
+            document.write(year + " is a LEAP year ");
+        }
+        else if (year % 100 == 0)
+        {
+            document.write(year + " is not a LEAP year ");
+        }
+        else if (year % 4 == 0)
+        {
+            document.write(year + " is a LEAP year ");
+        }
+        else
+        {
+            document.write(year + " is not a LEAP year ");
+        }
+    </script>
+    
+</body>
+</html>

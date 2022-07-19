@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Fibonacci series">
+    <title>Fibonacci series</title>
+</head>
+<body>
+    <h1>Fibonacci series</h1>
+    <script>
+        let num1 = 0 , num2 = 1 , num3;  
+        for (i = 2;i <= 11;i++)
+        {
+            num3 = num1 + num2;
+            document.write(num1 + ",");
+
+            num1 = num2;
+            num2 = num3; 
+        }
+        
+    </script>
+    
+</body>
+</html>
